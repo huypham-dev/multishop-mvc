@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Shop_Ban_Hang.Models.Category>
+@{
+	ViewBag.Title = "";
+}
+@*<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+</head>*@
+
+
+@foreach (var c in Model)
+{
+	var items = c.Products.OrderBy(p => Guid.NewGuid()).ToList().Take(4);
+
+	<div class="nn-block-margin-top30px">
+		<div class="titleCg">
+			<a href="/Product/Category?CategoryID=@c.Id" style="color: #636363;font-weight: bold;">@c.NameVN</a>
+		</div>
+
+		<div>
+
+			@foreach (var p in items)
+			{
+
+				<div class="col-md-3 col-sm-6 col-sx-12">
+					<div class="nn-product-box" style="width:200px">
+						<div class="hovereffect">
+							<a href="/Product/Product_Detail?productId=@p.Id">
+								<img id="i@(p.Id)" class="img-responsive" alt="@p.Name" src="/Content/img/products/@p.Image" style="margin-left:20px" />
+							</a>
+							<div class="overlay">
+								<h2>@p.Name</h2>
+								<a class="info" href="/Product/Product_Detail?productId=@p.Id">Chi Tiết</a>
+							</div>
+						</div>
+
+						<div class="nn-product-box-descriptions">
+
+							<h3 class="nn-product-box-name">
+								<a href="/Product/Product_Detail?productId=@p.Id" title="@p.Name">@p.Name</a>
+							</h3>
+							<div class="nn-product-box-price ">
+								<span class="">$ @p.UnitPrice</span>
+							</div>
+							<div class="nn-product-box-actions">
+								<button type="button" title="Add to Cart" class="btn btn-default add-to-cart" data-id="@p.Id">
+									<span>Thêm vào giỏ hàng</span>
+								</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			}
+
+		</div>
+		<div><a class="btn btn-info" role="button" style="float:right" href="/Product/GetProduct?categoryID=@c.Id"><b style="font-family: monospace;">View More >></b></a></div>
+
+	</div>
+	<div class="clearfix"></div>
+
+}
+
+
+
+@section scripts{
+	<script>
+        $(function () {
+            $(".add-to-cart").click(function () {
+                pid = $(this).attr("data-id");
+                $.ajax({
+                    url: "/Cart/Add",
+                    data: { id: pid },
+                    success: function (response) {
+                        alert("Đã thêm vào giỏ hàng thành công !!!");
+                        $("#nn-cart-count").html(response.Count);
+                        $("#nn-cart-total").html(response.Total);
+                    }
+                });
+
+                // hieu ung bay vao gio
+                cssfly = ".fly-effect {background:url(?);background-size:100% 100%;}";
+                src = $("#i" + pid).attr("src");
+                newcssfly = cssfly.replace("?", src);
+                $("#cart-fly").html(newcssfly);
+
+                options = { to: "#nn-cart-image", className: "fly-effect" };
+                $("#i" + pid).effect("transfer", options, 500, function () { });
+            });
+        });
+	</script>
+
+}

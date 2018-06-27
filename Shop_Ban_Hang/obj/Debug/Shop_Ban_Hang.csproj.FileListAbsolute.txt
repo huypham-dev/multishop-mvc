@@ -1,0 +1,380 @@
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\ApplicationInsights.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Shop_Ban_Hang.pdb
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csc.exe
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csc.exe.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csc.rsp
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csi.exe
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csi.exe.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\csi.rsp
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.AppContext.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Collections.Immutable.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Console.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.Process.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.IO.Compression.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.IO.Pipes.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Reflection.Metadata.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.AccessControl.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Claims.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Threading.Thread.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.ValueTuple.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\vbc.exe
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\vbc.exe.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\vbc.rsp
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe.config
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Antlr3.Runtime.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.Web.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.Web.Infrastructure.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Newtonsoft.Json.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Helpers.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Mvc.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Optimization.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Razor.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\WebGrease.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Helpers.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Mvc.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Optimization.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.Razor.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Antlr3.Runtime.pdb
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Newtonsoft.Json.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\Microsoft.AI.Web.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csprojResolveAssemblyReference.cache
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csproj.CoreCompileInputs.cache
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csproj.CopyComplete
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.pdb
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\EntityFramework.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\EntityFramework.SqlServer.dll
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\EntityFramework.xml
+E:\Hoc_Tap\Bai_Tap_MVC\MVC_Apptionn\Shop_Ban_Hang\bin\EntityFramework.SqlServer.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\ApplicationInsights.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.pdb
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.rsp
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.rsp
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.AppContext.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Console.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.Process.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Compression.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Pipes.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.AccessControl.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Claims.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Principal.Windows.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Threading.Thread.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.ValueTuple.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.rsp
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\WebGrease.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.pdb
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.xml
+D:\SVN\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csprojResolveAssemblyReference.cache
+D:\SVN\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csproj.CoreCompileInputs.cache
+D:\SVN\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csproj.CopyComplete
+D:\SVN\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.dll
+D:\SVN\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.pdb
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\ApplicationInsights.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.pdb
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.rsp
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.rsp
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.AppContext.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Console.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Compression.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Claims.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.ValueTuple.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.rsp
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\WebGrease.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.pdb
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.xml
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csprojResolveAssemblyReference.cache
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.dll
+C:\Users\Real Madrid\Desktop\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.pdb
+E:\ClothingShop\Shop_Ban_Hang\bin\ApplicationInsights.config
+E:\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll.config
+E:\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Shop_Ban_Hang.pdb
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.exe.config
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csc.rsp
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.exe.config
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\csi.rsp
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.AppContext.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Collections.Immutable.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Console.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.Process.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Compression.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.IO.Pipes.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Reflection.Metadata.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.AccessControl.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Claims.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Threading.Thread.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.ValueTuple.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.exe.config
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\vbc.rsp
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe
+E:\ClothingShop\Shop_Ban_Hang\bin\roslyn\VBCSCompiler.exe.config
+E:\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.Web.Infrastructure.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\WebGrease.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\EntityFramework.SqlServer.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Helpers.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Mvc.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Optimization.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.Razor.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Deployment.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\System.Web.WebPages.Razor.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Antlr3.Runtime.pdb
+E:\ClothingShop\Shop_Ban_Hang\bin\Newtonsoft.Json.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.ApplicationInsights.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.DependencyCollector.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.WindowsServer.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\Microsoft.AI.Web.xml
+E:\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.dll
+E:\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.pdb
+E:\ClothingShop\Shop_Ban_Hang\bin\PagedList.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\PagedList.Mvc.dll
+E:\ClothingShop\Shop_Ban_Hang\bin\PagedList.xml
+E:\ClothingShop\Shop_Ban_Hang\bin\PagedList.Mvc.xml
+E:\ClothingShop\Shop_Ban_Hang\obj\Debug\Shop_Ban_Hang.csprojResolveAssemblyReference.cache

@@ -1,0 +1,101 @@
+﻿@model Shop_Ban_Hang.Models.Customers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+
+    <!-- Theme style -->
+    <link href="~/Content/login/adminlte.min.css" rel="stylesheet" />
+
+    <!-- iCheck -->
+    <link href="~/Content/login/blue.css" rel="stylesheet" />
+
+
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+@ViewBag.user
+        <!-- /.login-logo -->
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Đăng Nhập</p>
+                <form action="/Account/Login" method="post">
+                    <div class="form-group has-feedback">
+                        @Html.TextBoxFor(model => model._id, new { @class = "form-control", @placeholder = "User", @autofocus ="auto" })
+                        @Html.ValidationMessageFor(m => m._id)
+                        <span class="fa fa-envelope form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        @*<input type="password" class="form-control" placeholder="Password" name="password">*@
+                        @Html.PasswordFor(model => model._password, new { @class = "form-control", @placeholder = "Password" })
+                        @Html.ValidationMessageFor(m => m._password)
+                        <span class="fa fa-lock form-control-feedback"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="checkbox-icheck">
+                                <label>
+                                    <input type="checkbox"> Nhớ mật khẩu
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary btn-block btn-flat">Đăng nhập</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    @Html.ValidationMessage("")
+                </form>
+                <div class="social-auth-links text-center mb-3">
+                    <p>- Hoặc -</p>
+                    <a href="#" class="btn btn-block btn-primary">
+                        <i class="fa fa-facebook mr-2"></i> Đăng nhập với Facebook
+                    </a>
+                    <a href="#" class="btn btn-block btn-danger">
+                        <i class="fa fa-google-plus mr-2"></i> Đăng nhập với Google+
+                    </a>
+                </div>
+                <!-- /.social-auth-links -->
+                <p class="mb-1">
+                    <a href="#">Quên mật khẩu</a>
+                </p>
+                <p class="mb-0">
+                    <a href="/Account/Create_Customer" class="text-center">Tạo tài khoản mới</a>
+                </p>
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+
+
+
+
+
+    <!-- /.login-box -->
+    <!-- jQuery -->
+    <script src="~/Content/login/jquery.min.js"></script>
+
+    <!-- Bootstrap 4 -->
+    <script src="~/Content/login/bootstrap.bundle.min.js"></script>
+
+    <!-- iCheck -->
+    <script src="~/Content/login/icheck.min.js"></script>
+
+    <script>
+        $(function () {
+            $('input').iCheck({
+                checkbox-icheck: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+                increaseArea: '20%' // optional
+            })
+        })</script>
+</body>
+</html>
+

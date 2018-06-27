@@ -1,0 +1,75 @@
+﻿
+@using PagedList;
+@model IPagedList<Shop_Ban_Hang.Models.Category>
+@using PagedList.Mvc;
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Categories</h2>
+@ViewBag.Categories
+
+
+
+
+
+	<form class="form-inline ml-3" action="/Admin/Categories/Index" style="float:right;margin-right: 40px;">
+		<div class="input-group input-group-sm">
+			<input class="form-control form-control-navbar" type="search" name="searchstring" placeholder="Search" aria-label="Search">
+			<div class="input-group-append">
+				<button class="btn btn-navbar" type="submit">
+					<i style="font-size:24px" class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+	</form>
+
+
+	<p>
+		<a href="/Admin/Categories/Create"><input type="button" class="btn btn-primary" value="Add Category"></a>
+	</p>
+	<table class="table">
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().NameVN)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Name)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Icon)
+			</th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.NameVN)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Icon)
+				</td>
+				<td>
+					<span class="btn btn-success">@Html.ActionLink("Edit", "Edit", new { id = item.Id })</span>&nbsp;
+					<span class="btn btn-info">@Html.ActionLink("Details", "Details", new { id = item.Id })</span>&nbsp;
+					<span class="btn btn-danger">@Html.ActionLink("Delete", "Delete", new { id = item.Id })</span>
+</td>
+			</tr>
+		}
+
+	</table>
+	<ul style="margin-left:300px" class="pagination">
+		<li>
+			@Html.PagedListPager(Model, page => Url.Action("Index",
+	new { page }))
+		</li>
+
+	</ul>
+
+

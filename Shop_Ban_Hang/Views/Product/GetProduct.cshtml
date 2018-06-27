@@ -1,0 +1,86 @@
+﻿@*@model IEnumerable<Shop_Ban_Hang.Models.Product>*@
+
+@model PagedList.IPagedList<Shop_Ban_Hang.Models.Product>
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@ViewBag.id
+<div class="nn-block-margin-top30pxx" style="margin-top: 30px;width:900px">
+
+				
+				<div>
+					@foreach (var p in Model)
+					{
+						<div class="col-md-3 col-sm-6 col-sx-12">
+							<div class="nn-product-box" style="width:200px">
+								<div class="hovereffect">
+									<a href="">
+										<img id="idd" class="img-responsive" alt="@p.Name" src="/Content/img/products/@p.Image" style="margin-left:20px" />
+									</a>
+									<div class="overlay">
+										<h2>@p.Name</h2>
+										<a class="info" href="/Product/Product_Detail?productId=@p.Id">Chi Tiết</a>
+									</div>
+								</div>
+								<div class="nn-product-box-descriptions">
+									<h3 class="nn-product-box-name">
+										<a href="/chi-tiet/@*@p.Name.ToAscii().ToLower()_@p.Id*@" title="@p.Name">@p.Name</a>
+									</h3>
+									<div class="nn-product-box-price ">
+										<span class="">$ @p.UnitPrice</span>
+									</div>
+									<div class="nn-product-box-actions">
+										<button type="button" title="Add to Cart" class="btn btn-default add-to-cart" data-id="@p.Id">
+											<span>Thêm vào giỏ hàng</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+				</div>
+
+    
+
+</div>
+<div class="clearfix"></div>
+<div>
+	@Html.PagedListPager(Model, page => Url.Action("GetProduct",
+						new { page, categoryID = ViewBag.categoryID }))
+</div>
+
+
+
+
+
+@section scripts{
+    <script>
+        $(function () {
+            $(".add-to-cart").click(function () {
+                pid = $(this).attr("data-id");
+                $.ajax({
+                    url: "/Cart/Add",
+                    data: { id: pid },
+                    success: function (response) {
+                        alert("Đã thêm vào giỏ hàng thành công !!!");
+                        $("#nn-cart-count").html(response.Count);
+                        $("#nn-cart-total").html(response.Total);
+                    }
+                });
+
+                // hieu ung bay vao gio
+                cssfly = ".fly-effect {background:url(?);background-size:100% 100%;}";
+                src = $("#i" + pid).attr("src");
+                newcssfly = cssfly.replace("?", src);
+                $("#cart-fly").html(newcssfly);
+
+                options = { to: "#nn-cart-image", className: "fly-effect" };
+                $("#i" + pid).effect("transfer", options, 500, function () { });
+            });
+        });
+    </script>
+}

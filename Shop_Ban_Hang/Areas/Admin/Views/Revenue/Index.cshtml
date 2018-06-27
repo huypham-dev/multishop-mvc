@@ -1,0 +1,95 @@
+﻿@model IEnumerable<ReportInfo>
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Thống kê doanh thu</h2>
+
+@using (Html.BeginForm())
+{
+	<fieldset>
+		<legend>Thời gian</legend>
+		<div id="time"></div>
+		Từ <input style="border-radius: 5px;" type="date" name="Min" id="min"/> đến 
+		<input style="border-radius: 5px;" type="date" name="Max" id="max"/>
+		@*From: @Html.TextBox("Min")
+		To: @Html.TextBox("Max")*@
+		<input class="btn btn-success" type="submit" value="Xem"/>
+	</fieldset>
+}
+@*<script>
+	var min = document.getElementById('min');
+	var max = document.getElementById('max');
+	function thoigian() {
+		document.getElementById('time').innerHTML = min.value + "=>" + max.value;
+	}
+</script>*@
+
+<p style="margin:20px 0px -20px 0px;font-size:">Từ ngày <b>@ViewBag.Min</b> đến ngày <b>@ViewBag.Max</b></p>
+<hr />
+
+<table class="table table-bordered">
+	<tr>
+		<th>Group</th>
+		<th>Year</th>
+		<th>Count</th>
+		<th>Sum</th>
+		<th>Min Price</th>
+		<th>Max Price</th>
+		<th>Avg Price</th>
+	</tr>
+	@foreach (var h in Model)
+	{
+		<tr>
+			<td>
+				@ViewBag.Quarter
+				@ViewBag.Year
+				@ViewBag.Month
+				 @h.Group @if (h.iGroup != 0)
+				{@h.iGroup}
+			</td>
+			<td>@Html.FormatValue(h.Year, "{0}")</td>
+			<td>@h.Count</td>
+			<td>@Html.FormatValue(h.Sum, "{0:c}")</td>
+			<td>@Html.FormatValue(h.Min, "{0:c}")</td>
+			<td>@Html.FormatValue(h.Max, "{0:c}")</td>
+			<td>@Html.FormatValue(h.Avg, "{0:c}")</td>
+		</tr>
+	}
+</table>
+
+<hr />
+
+<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+
+
+	<script>
+        $(function () {
+            $("fieldset #Min, fieldset #Max").datepicker({
+                dateFormat: 'yy-mm-dd'
+            });
+        });
+	</script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+    google.load("visualization", "1", { packages: ["corechart"] });
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Loai', 'Doanh so'],
+          @foreach (var r in Model)
+          {
+              <text>["@r.Group", @r.Sum],</text>
+          }
+            ]);
+
+        var options = {
+            title: 'Doanh số bán hàng',
+            is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    }
+	</script>
+

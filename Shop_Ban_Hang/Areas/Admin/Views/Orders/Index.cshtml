@@ -1,0 +1,88 @@
+﻿@using PagedList;
+@model IPagedList<Shop_Ban_Hang.Models.Order>
+@using PagedList.Mvc;
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Orders</h2>
+<form class="form-inline ml-3" action="/Admin/Orders/Index" style="float:right;margin-right: 40px;">
+	<div class="input-group input-group-sm">
+		<input class="form-control form-control-navbar" type="search" name="searchstring" placeholder="Search" aria-label="Search">
+		<div class="input-group-append">
+			<button class="btn btn-navbar" type="submit">
+				<i style="font-size:24px" class="fa fa-search"></i>
+			</button>
+		</div>
+	</div>
+</form>
+<p>
+	@*@Html.ActionLink("Create New", "Create")*@
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().OrderDate)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().RequireDate)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Receiver)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Address)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Description)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Amount)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FirstOrDefault().Customer.Fullname)
+			</th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderDate)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.RequireDate)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Receiver)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Address)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Description)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Amount)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Customer.Fullname)
+				</td>
+				<td>
+					@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+					@Html.ActionLink("Details", "Details", new { id = item.Id }) |
+					@Html.ActionLink("Delete", "Delete", new { id = item.Id })
+				</td>
+			</tr>
+
+		}
+</table>
+
+	<ul style="margin-left:300px" class="pagination">
+		<li>
+			@Html.PagedListPager(Model, page => Url.Action("Index",new { page }))
+		</li>
+	</ul>

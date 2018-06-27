@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Shop_Ban_Hang.Models.Supplier>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Suppliers</h2>
+<form class="form-inline ml-3" action="/Admin/Suppliers/Index" style="float:right;margin-right: 40px;">
+	<div class="input-group input-group-sm">
+		<input class="form-control form-control-navbar" type="search" name="searchstring" placeholder="Search" aria-label="Search">
+		<div class="input-group-append">
+			<button class="btn btn-navbar" type="submit">
+				<i style="font-size:24px" class="fa fa-search"></i>
+			</button>
+		</div>
+	</div>
+</form>
+<p>
+	<a href="/Admin/Suppliers/Create"><input type="button" class="btn btn-primary" value="Add Suppliers"></a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Logo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.Logo)*@
+			<img style="width: 50px;height: 50px;" src="~/Content/img/suppliers/@item.Logo" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

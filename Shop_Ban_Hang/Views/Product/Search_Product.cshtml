@@ -1,0 +1,97 @@
+﻿
+@model PagedList.IPagedList<Shop_Ban_Hang.Models.Product>
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+	hr {
+		margin-top: -20px;
+		margin-bottom: 40px;
+		width: 794px;
+		border: 0;
+		border-top: 5px solid #736f6f;
+	}
+</style>
+
+
+
+<div class="short-description">
+    <br />
+</div>
+
+<!-- H -->
+<div class="">
+    <fieldset class="nn-relate">
+		<legend style="font-size: 25px;font-weight: bold;margin-left: 12px;">SẢN PHẨM TÌM KIẾM </legend>
+		<hr />
+        @foreach (var p in Model)
+        {
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="nn-product-box" style="width:200px">
+					<div class="hovereffect">
+						<a href="">
+							<img id="idd" class="img-responsive" alt="@p.Name" src="/Content/img/products/@p.Image" style="margin-left:20px" />
+						</a>
+						<div class="overlay">
+							<h2>@p.Name</h2>
+							<a class="info" href="/Product/Product_Detail?productId=@p.Id">Chi Tiết</a>
+						</div>
+					</div>
+                    <div class="nn-product-box-descriptions">
+                        <h3 class="nn-product-box-name">
+                            <a href="/Product/Product_Detail?productId=@p.Id" title="@p.Name">@p.Name</a>
+                        </h3>
+                        <div class="nn-product-box-price ">
+                            <span class=""> @p.UnitPrice</span>
+                        </div>
+                        <div class="nn-product-box-actions">
+                            <button type="button" title="Add to Cart" class="btn btn-default add-to-cart" data-id="@p.Id">
+                                <span>Thêm vào giỏ hàng</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </fieldset>
+</div>
+<!-- H -->
+
+<!--H-->
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("Search_Product", new { page, keywords = ViewBag.keywords }))
+</div>
+<!--H-->
+
+@section scripts{
+    <script>
+        $(function () {
+            $(".add-to-cart").click(function () {
+                pid = $(this).attr("data-id");
+                $.ajax({
+                    url: "/Cart/Add",
+                    data: { id: pid },
+                    success: function (response) {
+                        alert("Đã thêm vào giỏ hàng thành công !!!");
+                        $("#nn-cart-count").html(response.Count);
+                        $("#nn-cart-total").html(response.Total);
+                    }
+                });
+
+                // hieu ung bay vao gio
+                cssfly = ".fly-effect {background:url(?);background-size:100% 100%;}";
+                src = $("#i" + pid).attr("src");
+                newcssfly = cssfly.replace("?", src);
+                $("#cart-fly").html(newcssfly);
+
+                options = { to: "#nn-cart-image", className: "fly-effect" };
+                $("#i" + pid).effect("transfer", options, 500, function () { });
+            });
+        });
+    </script>
+}
+

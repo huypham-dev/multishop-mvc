@@ -1,0 +1,73 @@
+﻿@using PagedList;
+@model IPagedList<Shop_Ban_Hang.Models.OrderDetail>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Order Details</h2>
+<form class="form-inline ml-3" action="/Admin/OrderDetails/Index" style="float:right;margin-right: 40px;">
+	<div class="input-group input-group-sm">
+		<input class="form-control form-control-navbar" type="search" name="searchstring" placeholder="Search" aria-label="Search">
+		<div class="input-group-append">
+			<button class="btn btn-navbar" type="submit">
+				<i style="font-size:24px" class="fa fa-search"></i>
+			</button>
+		</div>
+	</div>
+</form>
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().UnitPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Discount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Order.Customer.Fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Product.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Discount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order.Customer.Fullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id,idOr=item.Order.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+<ul style="margin-left:300px" class="pagination">
+	<li>
+		@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+	</li>
+</ul>

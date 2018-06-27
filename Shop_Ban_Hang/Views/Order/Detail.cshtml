@@ -1,0 +1,59 @@
+﻿@model Shop_Ban_Hang.Models.Order
+
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="border-bottom:3px"><i style="color:green" class="glyphicon glyphicon-ok"></i> Đặt hàng thành công  </h1>
+<hr style="height: 5px;
+    background: gray;" />
+
+
+<h3>Thông tin</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<th>Khách hàng</th>
+			<td>@Model.Customer.Fullname</td>
+		</tr>
+		<tr>
+			<th>Ngày đặt hàng</th>
+			<td>@Html.FormatValue(Model.OrderDate, "{0:yyyy-MM-dd}")</td>
+
+		</tr>
+		<tr>
+			<th>Địa chỉ</th>
+			<td>@Model.Address</td>
+
+		</tr>
+		<tr>
+			<th>Tổng tiền</th>
+			<td>@Html.FormatValue(Model.Amount, "{0:c}")</td>
+
+		</tr>
+	</tbody>
+</table>
+
+<h2>Thông tin chi tiết sản phẩm</h2>
+<table class="table table-hover">
+    <tr>
+		<th>Mã</th>
+		<th>Tên sản phẩm</th>
+		<th>Đơn giá</th>
+		<th>Giảm giá</th>
+		<th>Số lượng</th>
+		<th>Thành tiền</th>
+    </tr>
+    @foreach (var d in Model.OrderDetails)
+    {
+        <tr>
+            <td>@d.ProductId</td>
+            <td>@d.Product.Name</td>
+            <td>$ @d.UnitPrice</td>
+            <td>@d.Discount</td>
+            <td>@d.Quantity</td>
+            <td>$ @(d.UnitPrice * d.Quantity * (1 - d.Discount))</td>
+        </tr>
+    }
+</table>

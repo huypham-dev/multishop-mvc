@@ -1,0 +1,151 @@
+﻿@using PagedList;
+@model IPagedList<Shop_Ban_Hang.Models.Product>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<h2>Products</h2>
+
+
+<form class="form-inline ml-3" action="/Admin/Products/Index" style="float:right;margin-right: 40px;">
+	<div class="input-group input-group-sm">
+		<input class="form-control form-control-navbar" type="search" name="searchstring" placeholder="Search" aria-label="Search">
+		<div class="input-group-append">
+			<button class="btn btn-navbar" type="submit">
+				<i style="font-size:24px" class="fa fa-search"></i>
+			</button>
+		</div>
+	</div>
+</form>
+
+
+
+
+<p>
+	<a href="/Admin/Products/Create"><input type="button" class="btn btn-primary" value="Add Product"></a>
+</p>
+<table class="table">
+	<tr>
+		<th>
+			Name
+		</th>
+		<th>
+			UnitBrief
+		</th>
+		<th>
+			UnitPrice
+		</th>
+		<th>
+			Quantity
+		</th>
+		<th>
+			Discount
+		</th>
+		<th>
+			Views
+		</th>
+		<th>
+			NameVN
+		</th>
+		<th>
+			Name Supliers
+		</th>
+	</tr>
+		@*<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.Name)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.UnitBrief)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.UnitPrice)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Image)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.ProductDate)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Available)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Description)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Quantity)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Discount)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Special)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Latest)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Views)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Category.NameVN)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Supplier.Name)
+				</th>
+				<th></th>
+			</tr>*@
+
+		@foreach (var item in Model)
+		{
+<tr>
+        <td>
+			<img style="width: 70px;height: 70px;" src="~/Content/img/products/@item.Image" />
+            @Html.DisplayFor(modelItem => item.Name)
+			
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitBrief)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Discount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Views)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.NameVN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Supplier.Name)
+        </td>
+        <td>
+			
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+
+        </td>
+    </tr>
+}
+
+</table>
+<ul style="margin-left:300px" class="pagination">
+	<li>
+		@Html.PagedListPager(Model, page => Url.Action("Index",
+	new { page }))
+</li>
+
+</ul>

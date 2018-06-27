@@ -1,0 +1,359 @@
+﻿@model Shop_Ban_Hang.Models.Product
+
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    //ViewBag.Title = Model.Category.Name + " | " + Model.Name;
+    Layout = "~/Views/Shared/_Layout_Product_Detail.cshtml";
+    //Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+
+}
+
+<style>
+	.img-detail:hover{
+	 -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+	.img-detail{
+	width: 390px;
+    height: 390px;
+	border-radius: 10px;
+	margin-left: 100px;
+	}
+</style>
+
+<div class="row">
+    <div class="nn-product-view">
+        <div class="nn-product-essential row col-md-12 nn-margin-bottom" style="width:1300px">
+
+            <!-- Hien thi chi tiet -->
+            <div class="row nn-margin-bottom" style="width:1300px;    margin-left: 25px; ">
+                <div class="nn-product-image-box col-sm-6">
+
+                    <div class="nn-product-image-box-main" style="overflow:hidden;border-radius: 10px;border: solid 1px gray;">
+                        <img class="img-detail" src="/Content/img/products/@Html.DisplayFor(m=>m.Image)" />
+                    </div>
+                </div>
+			
+                <div class="nn-product-shop col-sm-6" style="line-height:2">
+					<h2>Thông tin sản phẩm</h2><hr style="height: 2px; background: gray;" />
+                    <div class="product-name">
+                        <h1>@Html.DisplayFor(m => m.Name)</h1>
+                    </div>
+                    <span class="sku_wrapper">
+                        <span class="item-title">Mã sản phẩm:</span>
+                        <span>
+                            <strong>
+                                @Html.DisplayFor(m => m.Name) - @Html.DisplayFor(m => m.Id)
+                            </strong>
+                        </span>
+                    </span>
+                    <span><br /></span>
+                    <span class="category-url-wrapper">
+                        <span class="item-title">Loại sản phẩm: </span>
+                        <a href="/Product/Category?CategoryID=@Model.CategoryId">@Model.Category.NameVN </a>
+                    </span>
+
+
+
+
+                    <p class="availability in-stock">
+                        <span class="item-title">
+                            <i>Còn hàng: </i>
+                        </span>
+                        <span>
+                            <strong>
+                                @Html.DisplayFor(m => m.Quantity)
+                            </strong>
+                        </span>
+                        trong kho
+                    </p>
+                    <div class="price-box">
+
+                        <span class="sku_wrapper">
+                            <span class="item-title">Đơn giá :</span>
+                            <span>
+                                <strong style="font-size: 35px; color: red;">
+                                    $ @Html.DisplayFor(m => m.UnitPrice)
+                                </strong>
+                            </span>
+                        </span>
+                        <span><br /></span>
+
+                    </div>
+                    <div class="add-to-box">
+                        @*<div class="add-to-cart nn-margin-bottom">
+                            <div class="qty-box">
+                                <label for="qty">Số lượng:</label>
+                                <input type="text" style="width:50px" class="form-control" name="qty" id="qty" maxlength="12" value="1" title="Qty">
+
+                            </div>
+                        </div>*@
+
+                        <button type="button" title="Add to Cart" class="btn btn-default add-to-cart" data-id="@Html.DisplayFor(m=>m.Id)">
+                            <span>Thêm vào giỏ hàng</span>
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="short-description">
+                <br />
+            </div>
+
+            <div style="width:800px">
+                <!-- Mô tả chi tiết sản phẩm -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active">
+                        <a href="#descriptions" role="tab" data-toggle="tab">
+                            Mô tả
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#specifications" role="tab" data-toggle="tab">
+                            Chi tiết
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#comments" role="tab" data-toggle="tab">
+                            <i class="fa fa-envelope"></i> Comments
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="descriptions">
+                        <div>
+                            @Html.DisplayFor(m => m.Description)
+                        </div>
+                    </div>
+                    <div class="tab-pane fade row" id="specifications">
+                        <div class="col-md-6">
+                            <table class="table table-hover table-striped">
+                                <tr>
+                                    <td>
+                                        Mã sản phẩm:
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(m => m.Name) - @Html.DisplayFor(m => m.Id)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Tên sản phẩm
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(m => m.Name)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Còn hàng
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(m => m.Available)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Loại sản phẩm
+                                    </td>
+                                    <td>
+                                        @Model.Category.Name
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Giảm giá
+                                    </td>
+                                    <td>
+                                        @Model.Discount
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Ngày sản xuất
+                                    </td>
+                                    <td>
+                                        @Model.ProductDate
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Nhà cung cấp
+                                    </td>
+                                    <td>
+                                        @Model.Supplier.Name
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Đơn vị
+                                    </td>
+                                    <td>
+                                        @Model.UnitBrief
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Lượt xem
+                                    </td>
+                                    <td>
+                                        @Model.Views
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <div class="tab-pane fade" id="comments">
+                        <h2>Your comments, Our treasure</h2>
+                        <div class="fb-comments" data-href="/chi-tiet/@*@Model.Name.ToAscii().ToLower()_@Model.Id*@" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--H-->
+            
+            <!--H-end-->
+
+            <div class="short-description">
+                <br />
+            </div>
+
+
+            <!-- H -->
+            <div class="">
+                <fieldset class="nn-relate">
+                    <h2>Sản Phẩm Đã Xem </h2><hr style="height: 2px; background: gray;" />
+                    @foreach (var p in ViewBag.Views)
+            {
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="nn-product-box" style="width:200px">
+						<div class="hovereffect">
+							<a href="/Product/Product_Detail?productId=@p.Id">
+								<a href="#"><img src="~/Content/img/products/@p.Image" class="img-responsive" style="margin-left:5px" /></a>
+							</a>
+							<div class="overlay">
+								<h2>@p.Name</h2>
+								<a class="info" href="/Product/Product_Detail?productId=@p.Id">Chi Tiết</a>
+							</div>
+						</div>
+                        <div class="nn-product-box-descriptions">
+                            <h3 class="nn-product-box-name">
+                                <a href="/chi-tiet/#" title="@p.Name">@p.Name</a>
+                            </h3>
+                            <div class="nn-product-box-price ">
+                                <span class="">$ @p.UnitPrice</span>
+                            </div>
+                            <div class="nn-product-box-actions">
+                                <button type="button" title="Add to Cart" class="btn btn-default add-to-cart" data-id="@p.Id">
+                                    <span>Thêm vào giỏ hàng</span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    }
+                </fieldset>
+            </div>
+            <!-- H -->
+
+        </div>
+
+    </div>
+    <!-- H -->
+    <!-- H -->
+</div>
+
+<!--Style-->
+<style>
+    /* Tab Navigation */
+    .nav-tabs {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+        .nav-tabs > li > a {
+            background: #DADADA;
+            border-radius: 0;
+            box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4);
+        }
+
+        .nav-tabs > li.active > a,
+        .nav-tabs > li.active > a:hover {
+            background: #fff;
+            box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4);
+        }
+
+    /* Tab Content */
+    .tab-pane {
+        background: #fff;
+        box-shadow: 0 0 4px rgba(0,0,0,.4);
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    /*  responsive facebook comment box*/
+    .fb_iframe_widget,
+    .fb_iframe_widget span,
+    .fb_iframe_widget span iframe[style] {
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+
+
+    .scroll-img {
+        border-left: 1px solid #DADADA;
+        overflow: hidden;
+    }
+
+        .scroll-img ul {
+            height: 800px;
+            margin: 0;
+        }
+
+            .scroll-img ul li {
+                display: block;
+            }
+</style>
+
+
+
+
+@section scripts{
+    <script>
+        $(function () {
+            $(".add-to-cart").click(function () {
+                pid = $(this).attr("data-id");
+                $.ajax({
+                    url: "/Cart/Add",
+                    data: { id: pid },
+                    success: function (response) {
+                        alert("Đã thêm vào giỏ hàng thành công !!!");
+                        $("#nn-cart-count").html(response.Count);
+                        $("#nn-cart-total").html(response.Total);
+                    }
+                });
+
+                // hieu ung bay vao gio
+                cssfly = ".fly-effect {background:url(?);background-size:100% 100%;}";
+                src = $("#i" + pid).attr("src");
+                newcssfly = cssfly.replace("?", src);
+                $("#cart-fly").html(newcssfly);
+
+                options = { to: "#nn-cart-image", className: "fly-effect" };
+                $("#i" + pid).effect("transfer", options, 500, function () { });
+            });
+        });
+    </script>
+}

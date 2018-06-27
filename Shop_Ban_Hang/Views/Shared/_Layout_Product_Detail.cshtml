@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title Digital Store</title>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+	@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">*@
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<style>
+	.mySlides {
+		display: none;
+		height: 350px;
+		border-radius: 5px;
+	}
+
+	.clearfix li {
+		display: inline;
+	}
+
+	.sale-policy ul li {
+		float: left;
+		text-transform: uppercase;
+		color: #aaaaaa;
+		margin-bottom: 10px;
+		margin-right: 50px;
+	}
+
+	.top-link ul li a {
+		color: #ffffff;
+		display: block;
+		padding: 10px;
+		font-size: 9px;
+		float: left;
+	}
+
+	.top-link {
+		background: #3c3f44;
+		margin-bottom: 0;
+		border-top: solid 1px transparent;
+		border-left: solid 1px transparent;
+		border-right: solid 1px transparent;
+		border-bottom: solid 1px #dddddd;
+	}
+</style>
+<body>
+	<div id="fb-root"></div>
+	<script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=559768260768581&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div class="container" style="width:auto">
+
+		<section class="top-link clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav navbar-nav topmenu-contact pull-left">
+							<li style="font-family: cursive, Tahoma, Geneva, Verdana, sans-serif;color: white;line-height: 2.5;"><i class="fa fa-phone"></i> <span>Hotline:0908 77 00 95</span></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right topmenu  hidden-xs hidden-sm">
+							<li class="order-check"><a href="/kiem-tra-don-hang.html"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+							<li class="order-cart"><a href="/Cart/Index"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+							<li class="account-login">
+								@if (Session["USER_SESSION"] == null)
+								{
+									<a href="/Account/Login"><i class="fa fa-sign-in"></i> Đăng nhập </a>
+								}
+								else
+								{
+									<a href="/Account/Logout"><i class="fa fa-sign-in"></i> Đăng xuất </a>
+								}
+
+							</li>
+							<li class="account-register"><a href="/Account/Create_Customer"><i class="fa fa-key"></i> Đăng ký </a></li>
+						</ul>
+						<div class="show-mobile hidden-lg hidden-md">
+							<div class="quick-user">
+								<div class="quickaccess-toggle">
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="inner-toggle">
+									<ul class="login links">
+										<li>
+											<a href="/dang-ky.html"><i class="fa fa-sign-in"></i> Đăng ký</a>
+										</li>
+										<li>
+											<a href="/dang-nhap.html"><i class="glyphicon glyphicon-user"></i> Đăng nhập</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="quick-access">
+								<div class="quickaccess-toggle">
+									<i class="fa fa-list"></i>
+								</div>
+								<div class="inner-toggle">
+									<ul class="links">
+										<li><a id="mobile-wishlist-total" href="/kiem-tra-don-hang.html" class="wishlist"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+										<li><a href="/gio-hang.html" class="shoppingcart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<header class="nn-header" style="">
+			<div class=" col-sm-3 col-md-3 nn-text-align-center">
+				<a href="/"><img src="/Content/img/logo.png" class="img-responsive" style="margin-left:62px;max-width:300px;width: 300px;height: 60px;" /></a>
+			</div><!--end logo-->
+			<div class="sale-policy clearfix hidden-sm hidden-xs" style="width:800px; height: 50px;float: right;">
+				<ul class="clearfix">
+					<li class="shipping">
+						<i style="font-size: 20px;color: tomato;" class="fa fa-truck"></i><span>
+							Giao hàng miễn phí
+						</span>
+					</li>
+					<li class="payment">
+						<i style="font-size: 20px;color: tomato;" class="glyphicon glyphicon-check"></i><span>
+							Thanh toán linh hoạt
+						</span>
+					</li>
+					<li class="return">
+						<i style="font-size: 20px;color: tomato;" class="glyphicon glyphicon-refresh"></i><span>
+							Trả hàng trong 30 ngày
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-sm-6 ">
+				@Html.Partial("_Search")
+			</div><!--end search box-->
+			<div class="nn-cart-box col-sm-3 col-md-3 ">
+				<div class="nn-top-cart-wrapper ">
+					<div class="nn-top-cart-contain">
+						@Html.Partial("_CartInfo")
+					</div>
+				</div>
+			</div><!--end cart box-->
+		</header>
+
+		<div class="navbar navbar-default">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home "></span></a>
+			</div>
+
+			<div class="navbar-collapse collapse js-navbar-collapse">
+				@Html.Partial("_Menu")
+			</div>
+		</div><!--end navigation-->
+		<div class="container row">
+
+			<div class="col-md-9 col-sm-9 col-lg-9 col-xs-12">
+				@RenderBody()
+			</div>
+
+			@*<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
+
+					@Html.Action("Saleoff", "Home")
+				</div>*@
+
+		</div>
+		<div class="ma-footer-static">
+			@Html.Partial("_Footer");
+		</div>
+	</div>
+
+
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@*<link href="~/Content/css/jquery-ui.css" rel="stylesheet" />
+		<script src="~/Content/js/jquery-ui.js"></script>*@
+
+	@RenderSection("scripts", required: false)
+	<script>
+        $(function () {
+            $("#search").autocomplete({
+                source: "/Home/Search",
+                minLength: 2
+            });
+        })
+	</script>
+
+</body>
+</html>
+<noembed />
